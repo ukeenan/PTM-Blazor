@@ -20,8 +20,8 @@ namespace BlazorClient
                 {
                     var handler = sp.GetService<AuthorizationMessageHandler>()
                         .ConfigureHandler(
-                            authorizedUrls: new[] { "https://login.qa.idaman.pertamina.com" },
-                            scopes: new[] { "spa.bae.wheater" });
+                            authorizedUrls: new[] { "" },
+                            scopes: new[] { "" });
 
                     return handler;
                 });

@@ -32,7 +32,7 @@ namespace WeatherApi
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {
-                    options.Authority = "https://login.qa.idaman.pertamina.com";
+                    options.Authority = "";
                     options.Audience = "api://5fb81914-071a-44c4-857f-a264f5faa7ca";
                     options.TokenValidationParameters = new TokenValidationParameters()
                     {
